@@ -1,0 +1,1 @@
+export function SectionHeading({ title, action }: { title: string; action?: React.ReactNode }) { return <div className="mb-4 flex items-center justify-between"><h2 className="font-display text-base font-semibold text-slate-900 dark:text-white">{title}</h2>{action}</div> }
